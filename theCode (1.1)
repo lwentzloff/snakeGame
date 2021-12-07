@@ -72,9 +72,6 @@ public class GamePanel extends JPanel implements ActionListener{
     int appleY; //the apples y-coordinate
     char direction = 'R'; //sets initial direction the snake travels
     boolean running = false;
-    boolean playAgain = false;
-    boolean ready = false;
-    boolean waiting = true;
     Timer timer; //creates instance of timer
     Random random; //creates instance of random
 
